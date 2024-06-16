@@ -1,15 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import powexIcon from "../assets/powex-logo.png";
 import { Count } from "../components/count";
 interface Props {}
 
 const SidePanel = ({}: Props) => {
-  const [count, setCount] = useState(0);
-
-  const handleClick = () => {
-    setCount((c) => ++c);
-  };
-
   return (
     <div className=" bg-[#121212] min-h-screen text-zinc-100 p-8 pb-10">
       <img src={powexIcon} alt="power brand" className="w-8 h-8" />

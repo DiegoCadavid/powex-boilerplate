@@ -1,6 +1,6 @@
 import React from "react";
-import { Count } from "../components/count";
 import powexIcon from "../assets/powex-logo.png";
+import { Count } from "../components/count";
 
 interface Props {}
 
